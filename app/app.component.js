@@ -2,7 +2,8 @@
   app.AppComponent = 
    ng.core.Component({
     selector: 'my-app',
-    template: '<h1>My first Angular 2 app</h1>'
+    template: '<hero-form></hero-form>',
+    directives: [app.HeroFormComponent]
   })
   .Class({
     constructor: function() {}
