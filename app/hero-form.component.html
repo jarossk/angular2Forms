@@ -4,13 +4,18 @@
   <form>
     <div class="form-group">
       <label for="name">Name</label>
-      <input type="text" class="form-control" required [(ngModel)]="model.name">
-      TODO: remove this: {{model.name}}
+      <input type="text" class="form-control" required 
+      [(ngModel)]="model.name"
+      ngControl="name" #spy>
+      <br>TODO: remove this: {{spy.className}}
     </div>
         
     <div class="form-group">
       <label for="alterEgo">Alter Ego</label>
-      <input type="text" class="form-control" [(ngModel)]="model.alterEgo">
+      <input type="text" class="form-control" 
+      [(ngModel)]="model.alterEgo"
+      ngControl="alterEgo" #spy1>
+      <br>TODO: remove this: {{spy1.className}}
     </div>
     
      <div class="form-group">
