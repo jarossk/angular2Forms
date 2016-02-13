@@ -1,8 +1,8 @@
 (function(app) {
-  app.AppComponent = 
-   ng.core.Component({
+  app.AppComponent = ng.core
+  .Component({
     selector: 'my-app',
-    template: '<hero-form></hero-form>',
+    template: '<hero-form></hero-form>',// '<h1>Works</h1>',
     directives: [app.HeroFormComponent]
   })
   .Class({

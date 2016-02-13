@@ -6,9 +6,9 @@
   })
   .Class({
     constructor: function() {
-      this.power = ['Really Smart', 'Super Flexible', 'Super hot', 'Weather Changer'];
+      this.powers = ['Really Smart', 'Super Flexible', 'Super hot', 'Weather Changer'];
       
-      this.model = new app.Hero(18, 'Dr IQ', this.power[0], 'Chuck OverStreet');
+      this.model = new app.Hero(18, 'Dr IQ', this.powers[0], 'Chuck OverStreet');
       
       this.submitted = false;
     },
@@ -19,5 +19,5 @@
     diagnostic: function() {
       return JSON.stringify(this.model);
     },
-  })
-});
+  });
+})(window.app || (window.app = {}));
