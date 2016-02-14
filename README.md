@@ -20,3 +20,6 @@ The Angular 2 form discussed in this chapter takes advantage of the following fr
   * [AngularJS2] - HTML enhanced for web apps!
   * [Twitter Bootstrap] - great UI boilerplate for modern web apps
   
+  
+   [AngularJS]: <http://angularjs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
