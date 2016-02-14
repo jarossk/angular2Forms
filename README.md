@@ -17,7 +17,7 @@ The Angular 2 form discussed in this chapter takes advantage of the following fr
   
   
 ### Tech
-  * [AngularJS2] - HTML enhanced for web apps!
+  * [AngularJS] - HTML enhanced for web apps!
   * [Twitter Bootstrap] - great UI boilerplate for modern web apps
   
     
